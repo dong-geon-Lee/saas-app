@@ -48,6 +48,7 @@ const CompanionsList = ({
                         alt={subject}
                         width={35}
                         height={35}
+                        style={{ width: "auto", height: "auto" }}
                       />
                     </div>
                     <div className="flex flex-col gap-2">
@@ -70,6 +71,7 @@ const CompanionsList = ({
                     alt={subject}
                     width={18}
                     height={18}
+                    style={{ width: "auto", height: "auto" }}
                   />
                 </div>
               </TableCell>
@@ -84,6 +86,7 @@ const CompanionsList = ({
                     width={14}
                     height={14}
                     className="md:hidden"
+                    style={{ width: "auto", height: "auto" }}
                   />
                 </div>
               </TableCell>
