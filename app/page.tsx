@@ -1,6 +1,8 @@
 import CompanionCard from "@/components/CompanionCard";
 import CompanionsList from "@/components/CompanionsList";
 import CTA from "@/components/CTA";
+import Like from "@/components/Like";
+import Like2 from "@/components/Like2";
 import {
   getAllCompanions,
   getRecentSessions,
@@ -13,7 +15,9 @@ const Page = async () => {
 
   return (
     <main>
-      <h1>Popular Companions</h1>
+      <Like />
+      <Like2 />
+      <h1>Popular Lists</h1>
 
       <section className="home-section">
         {companions.map((companion) => (
